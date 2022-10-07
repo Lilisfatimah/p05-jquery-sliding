@@ -1,0 +1,48 @@
+      body {
+        font-family: 'Times New Roman', Times, serif;
+        width: 70%;
+        margin: auto;
+        background-image: url(https://i.pinimg.com/564x/6c/eb/3b/6ceb3bd62c320b27511ab7f522125ea0.jpg);
+        background-size: cover;
+      }
+
+      .tombolklik{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      .tombol-slide {
+        width: 30%;
+        height: 40px;
+        border: none;
+        background-color: rgb(206, 188, 155);
+        font-weight: bold;
+        transition: all;
+        transition-duration: 500ms;
+      }
+
+      .belum-terbuka {
+        border-radius: 10px;
+      }
+
+      .terbuka {
+        border-radius: 10px 10px 0 0 ;
+      }
+
+      .sliding {
+        width: 30%;
+        height: auto;
+        display: none;
+        text-align: center;
+        background-color: rgb(213, 181, 129);
+        border-radius: 0 0 10px 10px;
+        padding: 1rem;
+      }
+
+      .sliding h4 {
+        margin-top: 2rem;
+      }
